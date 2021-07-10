@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import { InfoForm } from './components/InformationForm';
-// import { Form } from './form';
+import FormStepper from './Stepper'
+
 function App() {
   return (
     <div className="App">
-      {/* <Form /> */}
-      <InfoForm />
+      <FormStepper />
     </div>
   );
 }
